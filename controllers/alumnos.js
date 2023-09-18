@@ -13,7 +13,12 @@ const alumnoExiste = (legajo) => {
 
 exports.getAlumnos = (req, res) => {
     const alumnos = getAlumnosData();
-    res.send(alumnos);
+    let html = `<ul>`;
+    alumnos.forEach(alumno => {
+        html += `<li>[${alumno.legajo}] - ${alumno.nombre} ${alumno.apellido}: <a href=alumnos/${alumno.legajo}>Ver detalle</a></li>`
+    });
+    html += `</ul>`;
+    res.send(html);
 };
 
 exports.getAlumnoById = (req, res) => {

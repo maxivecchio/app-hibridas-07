@@ -1,7 +1,1 @@
-[
-  { "legajo": "1", "nombre": "Juan", "apellido": "Perez", "anio": 2018 },
-  { "legajo": "2", "nombre": "Maria", "apellido": "Gonzalez", "anio": 2019 },
-  { "legajo": "3", "nombre": "Luis", "apellido": "Martinez", "anio": 2021 },
-  { "legajo": "4", "nombre": "Ana", "apellido": "Rodriguez", "anio": 2022 },
-  { "legajo": "5", "nombre": "Carlos", "apellido": "Lopez", "anio": 2023 }
-]
+[{"legajo":"2","nombre":"Maria","apellido":"Gonzalez","anio":2019},{"legajo":"3","nombre":"Luis","apellido":"Martinez","anio":2021},{"legajo":"4","nombre":"Ana","apellido":"Rodriguez","anio":2022},{"legajo":"5","nombre":"Carlos","apellido":"Lopez","anio":2023},{"legajo":"6","nombre":"Carlos","apellido":"Lopez","anio":2023}]
