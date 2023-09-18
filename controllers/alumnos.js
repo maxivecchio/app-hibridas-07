@@ -18,9 +18,6 @@ exports.getAlumnos = (req, res) => {
 
 exports.getAlumnoById = (req, res) => {
     const legajo = req.params.legajo;
-    if (alumnoExiste(legajo)) {
-        return res.status(400).send('Ya existe un alumno con ese legajo');
-    }
     const alumnos = getAlumnosData();
     const alumno = alumnos.find(a => a.legajo === legajo);
     res.json(alumno);
